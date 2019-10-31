@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width , intial-scale=1">
+<title>Assignment solutoin for module 2</title>
+<style>
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:50px;
+}
+#head{
+	background-color: pink;
+	text-decoration-color: black;
+	margin:30px;
+	display: inline-block;
+	border-color: solid black;
+}
+p{
+  width:90%;
+  margin:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row{
+	width:100%;
+}
+#content{
+	background-color: lightgray;
+	text-decoration-color: black;
+	/*width:300px;
+	height:300px;*/
+}
+#box{
+	margin:30px;
+}
+
+@media(min-width: 992px){
+	.col-lg-1,	.col-lg-2,	.col-lg-3,	.col-lg-4,	.col-lg-5,
+	.col-lg-6,	.col-lg-7,	.col-lg-8,	.col-lg-9,	.col-lg-10,	.col-lg-11,	.col-lg-12{
+		float:left;
+		border: 1px solid black;
+	}
+	.col-lg-1{
+		width:8.33%;
+	}
+	.col-lg-2{
+		width:16.66%;
+	}
+	.col-lg-3{
+		width:25%;
+	}
+	.col-lg-4{
+		width:33%;
+	}
+	.col-lg-5{
+		width: 41.66%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+	.col-lg-7{
+		width: 58.33%;
+	}
+	.col-lg-8{
+		width: 66.66%
+	}
+	.col-lg-9{
+		width:75%;
+	}
+	.col-lg-10{
+		width:83.33%;
+	}
+	.col-lg-11{
+		width:91.66%;
+	}
+	.col-lg-12{
+		width:100%;
+	}
+}
+@media(min-width: 767px)and(max-width: 991px){
+	.col-mg-1,	.col-mg-2,	.col-mg-3,	.col-mg-4,	.col-mg-5,
+	.col-mg-6,	.col-mg-7,	.col-mg-8,	.col-mg-9,	.col-mg-10,	.col-mg-11,	.col-mg-12{
+		float:left;
+		border: 1px solid black;
+	}
+	.col-mg-1{
+		width:8.33%;
+	}
+	.col-mg-2{
+		width:16.66%;
+	}
+	.col-mg-3{
+		width:25%;
+	}
+	.col-mg-4{
+		width:33%;
+	}
+	.col-mg-5{
+		width: 41.66%;
+	}
+	.col-mg-6{
+		width: 50%;
+	}
+	.col-mg-7{
+		width: 58.33%;
+	}
+	.col-mg-8{
+		width: 66.66%
+	}
+	.col-mg-9{
+		width:75%;
+	}
+	.col-mg-10{
+		width:83.33%;
+	}
+	.col-mg-11{
+		width:91.66%;
+	}
+	.col-mg-12{
+		width:100%;
+	}
+
+}
+@media(max-width: 766px){
+	col-width:100%;
+}
+</style>
+<body>
+	<h1 align="center">Our Menu</h1>
+	<div id="box" class="row">
+		<div class="col-lg-3 col-mg-6">
+			<h2 align="right" id="head" >chicken</h2><p id="content" ,title="chicken" >
+			 flowers have been a secret language for many hundreds of years. For example: A small flower left on a mutually visited park bench in Victorian times could mean: I find you beautiful; or Please say you will meet me at our favorite tree; or You are beloved. And on and on. Think also of the War of the Roses. Two great houses fighting to rule England. And recognized by a flower.
+		</p></div>
+		<div class="col-lg-3 col-mg-6">
+			<h2 align="right" id="head" >birdly</h2><p id="content">
+			 flowers have been a secret language for many hundreds of years. For example: A small flower left on a mutually visited park bench in Victorian times could mean: I find you beautiful; or Please say you will meet me at our favorite tree; or You are beloved. And on and on. Think also of the War of the Roses. Two great houses fighting to rule England. And recognized by a flower.
+		</p></div>
+		<div class="col-lg-3 col-mg-12">
+			<h2  id="head" text-align="right" >foodish</h2><p id="content">
+			 flowers have been a secret language for many hundreds of years. For example: A small flower left on a mutually visited park bench in Victorian times could mean: I find you beautiful; or Please say you will meet me at our favorite tree; or You are beloved. And on and on. Think also of the War of the Roses. Two great houses fighting to rule England. And recognized by a flower.
+		</p></div>
+	</div>
+</body>
+
+</head>
+</html>
